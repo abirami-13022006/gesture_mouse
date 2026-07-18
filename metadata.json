@@ -1,6 +1,11 @@
 {
   "name": "EcoShield AI",
-  "description": "India's Environmental Crime Intelligence Platform, utilizing real-time satellite telemetry, computer vision, and AI-powered analysis to detect, track, and report environmental pollution and illegal waste burning.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "description": "EcoShield AI is India's Environmental Crime Intelligence Platform, leveraging AI, GIS mapping, and citizen reporting to protect rivers, prevent waste burning, and stop illegal dumping.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
